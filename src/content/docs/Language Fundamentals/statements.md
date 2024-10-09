@@ -13,7 +13,7 @@ Statements largely work like in C, but with some additions.
 Expression blocks (delimited using `{| |}`) are compound statements that opens their own function scope.
 Jumps cannot be done into or out of a function block, and `return` exits the block, rather than the function as a whole.
 
-The function below prints `World!`
+The function below prints `Hello World!`
 
 ```c3
 fn void test()
